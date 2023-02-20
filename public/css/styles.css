@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+  background-color: #9f9b9b;
+}
+
+
+h1 {
+  font-size: 2em;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: bisque;
+}
