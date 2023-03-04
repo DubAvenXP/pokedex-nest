@@ -32,6 +32,16 @@
 $ yarn install
 ```
 
+## Start Database
+
+```bash
+$ docker-compose up -d
+```
+
+## Environment Variables
+
+Create a .env file in the root directory and add the variables that are in the .env.example file
+
 ## Running the app
 
 ```bash
@@ -45,6 +55,13 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
+## Run seed
+
+```bash
+$ curl --location --request GET 'http://localhost:3000/api/v2/seed'
+```
+
+
 ## Test
 
 ```bash
@@ -57,7 +74,6 @@ $ yarn run test:e2e
 # test coverage
 $ yarn run test:cov
 ```
-
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
