@@ -1,0 +1,8 @@
+dist/
+node_modules/
+.gitignore
+.git/
+.env
+.env.example
+.env.prod
+mongo/
