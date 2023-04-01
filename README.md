@@ -74,6 +74,15 @@ $ yarn run test:e2e
 # test coverage
 $ yarn run test:cov
 ```
+## Production Build
+
+1. Create ```.env.prod``` file in the root directory and add the variables that are in the ```.env.example``` file
+2. Create a new image with the following command
+```bash
+$ docker-compose -f docker-compose.prod.yaml --env-file .env.prod up -build
+```
+
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
